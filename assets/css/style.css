@@ -1,0 +1,29 @@
+body {
+
+
+    background-image: url("file:///Users/vitamind/Desktop/Trivia-Game/assets/images/Cabinet-of-Curiosities-l.jpg");
+}
+
+img.bg {
+    min-width: 1024px;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#triviaBox{
+    z-index: 100;
+      width: 70%;
+      height: 400px;
+      background-color: #ffff66;
+      position: center;
+      margin: auto;
+}
+.startButton{
+
+    background-color: #0099cc;
+    width: 200px;
+    height: 200px;
+}
