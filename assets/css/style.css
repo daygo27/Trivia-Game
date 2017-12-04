@@ -18,12 +18,52 @@ img.bg {
       width: 70%;
       height: 400px;
       background-color: #ffff66;
-      position: center;
+      position: relative;
       margin: auto;
+      margin-top: 150px;
+      border: 3px solid green;
+    padding: 10px;
+    overflow: auto;
+    box-sizing:border-box;
+
 }
-.startButton{
+#startButton{
 
     background-color: #0099cc;
     width: 200px;
-    height: 200px;
+    height: auto;
+    margin: 0px 250px 50px;
+    left: 500px;
+    border: 3px solid green;
+    padding: 20px;
+    right: 100px;
+    box-sizing:border-box;
+    display: block;
+
+
 }
+button:hover {
+  background: green;
+  border: 2px solid blue;
+}
+h1{
+
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 490%;
+  margin: auto;
+  position: relative;
+}
+
+h2.gameTitle {
+font-size: 450%;
+text-align: center;
+font-family: 'IM Fell English SC', serif;
+
+}
+
+#counter{
+    
+font-size: 450%;
+text-align: center;
+font-family: 'IM Fell English SC', serif;
+} 
